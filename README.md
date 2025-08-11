@@ -1,4 +1,4 @@
-# GCP RunPod風 安価VM構築
+# GCP GPU 開発環境
 
 TerraformでGCPに安価なスポットインスタンスを構築してSSH接続するためのプロジェクトです。
 

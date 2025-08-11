@@ -1,0 +1,20 @@
+# 開発環境用の設定例
+
+# プロジェクト設定
+project_id = "gcp-runpod-gpu-lab"
+
+# リージョン・ゾーン設定（料金重視）
+region = "asia-northeast1"
+zone   = "asia-northeast1-a"
+
+# VM設定（開発環境用）
+machine_type = "e2-micro"
+disk_size = 10
+
+# SSH設定（既存鍵を使用）
+ssh_username = "ubuntu"
+ssh_public_key_path = "~/.ssh/id_rsa.pub"
+use_generated_ssh_key = false
+
+# 監視設定
+enable_monitoring = false

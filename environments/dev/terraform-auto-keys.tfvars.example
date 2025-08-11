@@ -1,0 +1,19 @@
+# 開発環境用の設定例（SSH鍵自動生成）
+
+# プロジェクト設定
+project_id = "gcp-runpod-gpu-lab"
+
+# リージョン・ゾーン設定
+region = "asia-northeast1"
+zone   = "asia-northeast1-a"
+
+# VM設定
+machine_type = "e2-micro"
+disk_size = 10
+
+# SSH設定（自動生成）
+ssh_username = "ubuntu"
+use_generated_ssh_key = true
+
+# 監視設定
+enable_monitoring = false
